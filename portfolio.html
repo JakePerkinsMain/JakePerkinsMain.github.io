@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Jake Perkins</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/prcptn-dsgn/qwik/dist/min.js"></script>
+  <script src="scripts/rellax.js"></script>
+  <script src="scripts/geoStackr.js"></script>
+</head>
+
+<body onload="load()">
+  <!-- partial:index.partial.html -->
+  <div class="nav-wrap">
+    <div class="nav-logo animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+      <img
+        src="https://media.discordapp.net/attachments/656343660241223697/790648429919207495/Jake_Perkins_Signature.png?width=702&height=702" />
+    </div>
+    <div class="nav-btn animate__animated animate__fadeInDown animate__faster">
+      Contact
+    </div>
+    <div class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-100ms">
+      Accomplishments
+    </div>
+    <div class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-200ms nav-active">
+      Portfolio
+    </div>
+    <div class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-300ms">
+      About Me
+    </div>
+    <div class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-400ms ">
+      Home
+    </div>
+  </div>
+  <div class="short-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+    <h1>Port<span class="accent-1"></Portspan>folio</span></h1>
+    
+  <div class="port-wrap">
+    <div onclick="mT('#editing')" class="port-btn animate__animated animate__fadeInDown animate__faster">
+      Video Editing
+    </div>
+    <div onclick="mT('#design')" class="port-btn animate__animated animate__fadeInDown animate__faster animate__delay-100ms">
+      Graphic design
+    </div>
+    <div onclick="mT('#dev')" class="port-btn animate__animated animate__fadeInDown animate__faster animate__delay-200ms">
+      game development
+    </div>
+    <div onclick="mT('#accomplishments')" class="port-btn animate__animated animate__fadeInDown animate__faster animate__delay-200ms">
+      accomplishments
+    </div>
+  </div>
+  </div>
+  <div id="editing-s" class="short-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+    <h2 class="wow animate__fadeIn animate__faster">Video <span class="accent-2">Editing</span></h2>
+    <div class="img-grid-wrap">
+      <div class="img-grid-col">
+        <div class='img-grid wow animate__fadeIn animate__faster tilt' ><img src="assets/Game Development Picture 1 - Jake Perkins.png" /></div>
+      </div>
+      
+      <div class="img-grid-col">
+        <div class='img-grid wow animate__fadeIn animate__faster tilt'><img src="assets/Game Development Picture 1 - Jake Perkins.png" /></div>
+    </div>
+    </div>
+
+  </div>
+  <div id="design-s" class="short-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+    <h2 class="wow animate__fadeIn animate__faster">Graphic <span class="accent-2">Design</span></h2>
+    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 1 - Jake Perkins.png" /></div>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 2 - Jake Perkins.png" /></div>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 3 - Jake Perkins.png" /></div>
+    </div>
+  </div>
+  <div id="dev-s" class="short-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+    <h2 class="wow animate__fadeIn animate__faster">Game <span class="accent-2">Development</span></h2>
+    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 1 - Jake Perkins.png" /></div>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 2 - Jake Perkins.png" /></div>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 3 - Jake Perkins.png" /></div>
+    </div>
+  </div>
+  <div id="accomplishments-s" class="short-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+    <h2 class="wow animate__fadeIn animate__faster">Accomp<span class="accent-2">lishments</span></h2>
+    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 1 - Jake Perkins.png" /></div>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 2 - Jake Perkins.png" /></div>
+      <div class="carousel-cell"><img src="assets/Game Development Picture 3 - Jake Perkins.png" /></div>
+    </div>
+  </div>
+  <div class="footer"></div>
+  
+  <div class="geostack-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+  <div style="top: calc(15vh + 2px); left: 10vw"
+    class="rellax  geostack"
+    data-rellax-speed="-7"></div>
+  <div style="top: 45vh; right: 7vw"
+    class="rellax geostack"
+    data-rellax-speed="-5"></div>
+</div>
+  <!-- partial -->
+  <div class="theme-btn-wrap" onclick="switchTheme()">
+    <img id="theme-btn-img" src="assets/cloud-moon-solid.svg" />
+  </div>
+  <script src="scripts/wow.js"></script>
+  <script src="scripts/tilt.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
