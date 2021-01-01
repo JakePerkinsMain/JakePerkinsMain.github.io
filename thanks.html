@@ -16,42 +16,6 @@
 </head>
 
 <body onload="load()">
-  <!-- partial:index.partial.html -->
-  <div class="nav-wrap">
-    <div class="nav-logo animate__animated animate__fadeIn animate__faster animate__delay-200ms">
-      <img
-        src="https://media.discordapp.net/attachments/656343660241223697/790648429919207495/Jake_Perkins_Signature.png?width=702&height=702" />
-    </div>
-    <div onclick="window.location.href = 'contact.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster nav-active">
-      Contact
-    </div>
-    <div onclick="window.location.href = 'portfolio.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-200ms">
-      Portfolio
-    </div>
-    <div onclick="window.location.href = 'about.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-300ms">
-      About Me
-    </div>
-    <div onclick="window.location.href = 'index.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-400ms">
-      Home
-    </div>
-  </div>
-
-  <div class="short-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
-    <h1>Con<span class="accent-1"></Portspan>tact</span></h1>
-  </div>
-  <div id="editing-s" class="short-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
-    <h4 class="wow animate__fadeIn animate__faster">Have a question or inquiry? Contact me here!</h4>
-    <form class="kwes-form" id="contact" action="https://kwes.io/api/foreign/forms/KkOW022YqwY04wxfvHi8"  target="_blank" target="dummyframe">
-        <input type="text" name="subject" placeholder="Subject" rules="required">
-        <input type="text" name="name" placeholder="Name" rules="required">
-        <input type="email" name="email" placeholder="Email" rules="required">
-        <textarea name="message" placeholder="Message" rules="required"></textarea>
-        <br>
-        <input type="submit" >
-      </form>
-
-  </div>
-  <div class="footer"></div>
   <div class="geostack-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
   <div style="top: calc(15vh + 2px); left: 10vw"
     class="rellax  geostack"
@@ -60,18 +24,41 @@
     class="rellax geostack"
     data-rellax-speed="-5"></div>
 </div>
+  <!-- partial:index.partial.html -->
+  <div class="nav-wrap">
+    <div class="nav-logo animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+      <img
+        src="https://media.discordapp.net/attachments/656343660241223697/790648429919207495/Jake_Perkins_Signature.png?width=702&height=702" />
+    </div>
+    <div onclick="window.location.href = 'contact.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster">
+      Contact
+    </div>
+    <div onclick="window.location.href = 'portfolio.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-200ms">
+      Portfolio
+    </div>
+    <div onclick="window.location.href = 'about.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-300ms">
+      About Me
+    </div>
+    <div onclick="window.location.href = 'index.html'" class="nav-btn animate__animated animate__fadeInDown animate__faster animate__delay-400ms nav-active">
+      Home
+    </div>
+  </div>
+  <div class="main-segment-wrap animate__animated animate__fadeIn animate__faster animate__delay-200ms">
+    <h1><span class="accent-1">Thanks</span> for your submission!</h1>
+    <p>I will get back to you shortly.</p>
+    <div class="gen-btn" onclick="window.location.href='index.html'">Back</div>
+  </div>
+  <div class="footer"></div>
   <!-- partial -->
   <div class="theme-btn-wrap" onclick="switchTheme()">
     <img id="theme-btn-img" src="assets/cloud-moon-solid.svg" />
   </div>
-  <script src="https://kwes.io/v2/kwes-script.js" defer></script>
   <script src="scripts/wow.js"></script>
   <script src="scripts/tilt.js"></script>
               <script>
               new WOW().init();
               </script>
   <script src="scripts/index.js"></script>
-  <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>w
 </body>
-
 </html>
+
