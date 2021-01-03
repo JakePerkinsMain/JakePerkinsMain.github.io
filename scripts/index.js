@@ -44,6 +44,7 @@ function loadTheme() {
     style.setProperty('--text', '#181e2f');
     style.setProperty('--transparent', '#00000000');
     style.setProperty('--accent', " #b7b8ca")
+    style.setProperty('--mode', "92%")
   } else if (t == "Dark") {
     q.get("#theme-btn-img").src = "assets/cloud-sun-solid.svg"
     style.setProperty('--red', '#ff61ab');
@@ -53,6 +54,7 @@ function loadTheme() {
     style.setProperty('--bg', '#181e2f');
     style.setProperty('--text', 'white');
     style.setProperty('--accent', "#323c57")
+    style.setProperty('--mode', "1000%")
     style.setProperty('--transparent', '#00000000');
   }
   console.log(t)
